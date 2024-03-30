@@ -85,7 +85,7 @@ function Calc(int) {
         document.getElementById('sol_p').innerText = " ";
 
     }
-
+    /*
     const length = solution.toString().length 
     console.log(`length is ${length}`)
     if (length > 16 && length < 20) {
@@ -103,6 +103,7 @@ function Calc(int) {
         document.getElementById("solution").style.fontSize = "80px";
 
     }
+    */
     
 }
 
