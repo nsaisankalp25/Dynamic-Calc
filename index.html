@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>CALCULATOR</h1>
+        <!-- <h2>Enter Numeric Values</h2> -->
+
+        <input type="number" id = 'num1' placeholder="Enter A Number" onclick="this.select();">
+
+
+        <input type="number" id = 'num2' placeholder="Enter A Number" style="color:#f5c6f7" onclick="this.select();">
+
+
+        <button id = "add_button" type = "button" onclick="Calc(1)">+</button>
+
+
+        <button id = "sub_button" type = "button" onclick="Calc(2)">-</button>
+
+
+        <button id = "mul_button" type = "button" onclick="Calc(3)">×</button>
+
+
+        <button id = "div_button" type = "button" onclick="Calc(4)">÷</button>
+
+        <button id = "pow_button" type = "button" onclick="Calc(5)">^</button>
+
+        <button id = "fac_button" type = "button" onclick="Calc(6)">!</button>
+
+        <p id = 'sol_p'></p>
+        <p id = 'solution'></p>
+    </body> 
+    <script src = 'app.js'></script>
+</html>
